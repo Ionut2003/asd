@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 20vh;
+  display: flexbox;
+}
+
+.navbar1 {
+  background-color: #049a86;
+  height: 60%;
+}
+
+.navbar2 {
+  height: 40%;
+  color: rgb(230, 209, 141);
+  background-color: cadetblue;
+}
+
+.reclame {
+  display: flex;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.primul-mesaj,
+.nr-telefon,
+.contact,
+.reclamatii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.primul-mesaj {
+  flex: 40%;
+}
+
+.nr-telefon {
+  flex: 30%;
+}
+
+.reclamatii {
+  flex: 20%;
+}
+
+.contact {
+  flex: 10%;
+}
+.primul-mesaj:hover, .nr-telefon:hover, .contact:hover, .reclamatii:hover{
+    color: rgb(255, 255, 71);
+}
+
+.tipuri-meniuri {
+  display: flex;
+  height: 100%;
+ 
+}
+.button {
+        display: flex;
+        flex:12.5%;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Copperplate', fantasy;
+       color: rgb(236, 212, 140);
+        font-size: 1rem;
+        cursor: pointer;
+}
+
+.button:hover{
+    color: rgb(148, 136, 95);
+    background-color: rgb(238, 233, 170);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+.footer {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    height:5vh;
+    margin-top: 300px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.despre-noi, .info-utile, .vouchere {
+    flex: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.main {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  height: auto
+}
+
+.pagina {
+  width: 100%;
+  height: 100%;
+}
+#paste, #salate, #desert,#bauturi,#promotii,#taxa,#conectare {
+  background-color: rgb(150, 127, 79);
+  display: none;
+}
+.container{
+  width: 21.25vw;
+  height: auto;
+  margin-top: 7%; 
+  margin-left: 3vw;
+  text-align: center;
+}
+ .pizza{
+  width: 100%;
+  height: 15vw;
+} 
+.pizza_name{
+  margin-top: 9%;
+}
+.pizza_pret{
+  margin-top: 15%;
+  float: right;
+}
